@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 def get_kaggle_env():
     return os.environ.get('KAGGLE_KERNEL_RUN_TYPE','')
 
